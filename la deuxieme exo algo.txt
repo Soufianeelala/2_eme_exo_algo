@@ -1,0 +1,45 @@
+	FONCTIONS_UTILISEES
+	VARIABLES
+	x EST_DU_TYPE NOMBRE
+	y EST_DU_TYPE NOMBRE
+	z EST_DU_TYPE NOMBRE
+	DEBUT_ALGORITHME
+	AFFICHER "enter une valeure"
+	lire z
+	POUR y ALLANT_DE 1 A z
+		DEBUT_POUR 
+				POUR x ALLANT_DE 1 A y
+				DEBUT_POUR
+					AFFICHER  "🤔"			
+				FIN_POUR
+					AFFICHER* " "
+		FIN_POUR 
+
+2.Damier_________________________________________________________
+
+	FONCTIONS_UTILISEES
+	VARIABLES
+	x EST_DU_TYPE NOMBRE
+	y EST_DU_TYPE NOMBRE
+	l EST_DU_TYPE NOMBRE
+	DEBUT_ALGORITHME
+	AFFICHER "entrer une valeure"
+	LIRE l
+	POUR y ALLANT_DE 1 A l
+		DEBUT_POUR
+			  
+				POUR x ALLANT_DE 1 A l
+				DEBUT_POUR
+		
+					SI ( y%2==0 et x%2==0 OU y%2==1 et x%2==1 ) ALORS
+						DEBUT_SI
+						AFFICHER "◼️"
+						FIN_SI
+					SINON
+						DEBUT_SINON
+						AFFICHER "⚪️"
+						FIN_SINON
+					
+				FIN_POUR
+					AFFICHER* " "
+		FIN_POUR 
